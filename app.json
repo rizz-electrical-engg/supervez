@@ -1,0 +1,36 @@
+{
+    "name": "TGVid-Comp",
+    "description": "A telegram video encoder.",
+    "logo": "https://envs.sh/PvC.jpg",
+    "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
+    "repository": "https://t.me/aboutRizzx",
+    "success_url": "",
+    "stack": "container",
+    "env": {
+        "APP_ID": {
+            "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
+            "value": "21857983"
+        },
+        "API_HASH": {
+            "description": "You api hash get it from my.telegram.org or @apiScrapperRoBot.",
+            "value": "e469e84c943ce3b8b056eb6a296f2c67"
+        },
+        "BOT_TOKEN": {
+            "description": "Make a bot from @BotFather and enter it's api token",
+            "value": "7670762731:AAGiMUsnRysNwWFN_kKg7YQ61FXJ_pvLyjE"
+        },
+        "OWNER": {
+            "description": "Put ids of user which can access the bot e.g 123456789",
+            "value": "833465134"
+        },
+        "THUMBNAIL": {
+            "description": "Put Link of any picture.",
+            "value": "https://envs.sh/PvC.jpg",
+            "required": false
+        },
+        "FILE_CHANNEL": {
+            "description": "Channel ID where files will be sent.",
+            "value": "-1001234567890"
+        }
+    }
+}

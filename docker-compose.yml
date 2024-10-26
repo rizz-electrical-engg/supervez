@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  tgvid-comp-bot:
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    container_name: tgvid-comp
+    environment:
+      - APP_ID="21857983"
+      - API_HASH="e469e84c943ce3b8b056eb6a296f2c67"
+      - BOT_TOKEN="7359812772:AAEi3viRzpKdug4kJjiWp93WXoj-s4OyIGU"
+      - OWNER="833465134"
+      - THUMBNAIL="https://envs.sh/A3M.jpg"
+    volumes:
+      - "/codebase:/codebase"
+      - "/storage:/storage"
+    restart: always
