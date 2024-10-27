@@ -5,7 +5,7 @@ from .FastTelethon import download_file, upload_file
 from .funcn import *
 from .config import *
 
-FORWARD_CHAT_ID = int(os.getenv("FORWARD_CHAT_ID", "-1001234567890"))
+FORWARD_CHAT_ID = int(os.getenv("FORWARD_CHAT_ID", "-1002297251125"))
 
 async def stats(e):
     try:
